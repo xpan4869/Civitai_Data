@@ -19,7 +19,6 @@ https://civitai.com/api/v1/models
 | **description**     |  string    | The description of the model (HTML)|
 | type            |  enum (Checkpoint, TextualInversion, Hypernetwork, AestheticGradient, LORA, Controlnet, Poses)| The model type|
 | tags       |  string     | Url to get profile image of this user |
-| mode       |  enum (Archived, TakenDown) / null | The mode in which the model is currently on. If Archived, files field will be empty. If TakenDown, images field will be empty |
 | creator         |   string   |The name of the creator|
 | upload_data             |  string    | Url to get all models from this user |
 | last_version_date       |  string     | Url to get profile image of this user |
