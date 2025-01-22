@@ -45,3 +45,20 @@ https://civitai.com/api/v1/model-versions/:id
 https://civitai.com/api/v1/images
 | Name              |   Type   | Description |
 | :---------------- | :------: | ----: |
+| image_id         |   number   |The id of the image|
+| url       |   string   |The url of the image at it's source resolution|
+| hash       |   string   | The name of the model |
+| model_id         |   number   |The ID of a model to get images from (model gallery)|
+| post_id         |   number   |The ID of a post to get images from|
+| modelVersionId  |   number   |The ID of a model version to get images from (model gallery filtered to version)|
+| width     |  number    | The width of the image)|
+| height    |  number | The height of the image |
+| nsfw       |  boolean     | If the image has any mature content labels |
+| nsfwLevel    |  enum (None, Soft, Mature, X)	     | The NSFW level of the image |
+| created_at       |  date     | The date the image was posted |
+| cry_count         |   number   | The number of cry reactions |
+| laugh_count             |  number    | The number of laugh reactions |
+| like_count       |  number    | The number of like reactions |
+| heart_count       |  number    | The number of heart reactions |
+| comment_cout       |  number    | The number of downloads the model has |
+| meta       |  object    |The generation parameters parsed or input for the image|
